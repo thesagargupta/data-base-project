@@ -1,0 +1,58 @@
+<HTML>
+<head>
+    <link rel="stylesheet" href="index.css">
+<body>
+<title>form</title>
+<body bgcolor="lightyellow">
+<form action="index.php"  method="post">
+<fieldset>
+<legend>
+<h1>Vaccancy Form</h1>
+</legend>
+<div class="myform">
+<div>
+<label for="name">First Name</label>
+<input type="text" id="name" class="cent" placeholder="First Name" name="firstname"></div><br>
+
+<div><label for="lname">Last Name</label>
+<input type="text" id="lname"class="cent"placeholder="last Name" name="lastname"></div><br>
+
+<div><label for="pno.">Phone Number</label>
+<input type="tel" id="pno."class="cent"placeholder="Phone Number" name="phonenumber"></div><br>
+
+<div><label for="mail">Email</label>
+<input type="email" id="mail"class="cent"placeholder="Email" name="email"></div><br>
+
+<!--<div><label for="date">Date Of Birth</label>
+<input type="Date" id="date"class="cent" name="DOB"></div><br>
+!-->
+
+<label>gender</label>
+<input type="radio" name="gender"class="cent" name="gender" value="m"/>Male<br>
+<input type="radio" name="gender"class="cent" name="gender" value="f"/>Female<br>
+<input type="radio" name="gender"class="cent" name="gender" value="o"/>Other<br> 
+<br>
+<div>
+<label>Education</label>
+<div class="edu">
+<select name="education">
+<option value="graduation">graduation</option>
+<option value="12th">12th</option>
+<option value="10th">10th</option>
+<option value="illiterate">illiterate</option>
+</select><br>
+</div>
+</div>
+
+<div><br>
+<input type="submit" value="SUBMIT NOW" class="btn">
+</div>
+<marquee>
+<p>you will get an email after the submission</p>
+</marquee>
+</fieldset>
+</form>
+</div>
+</body>
+</head>
+</html>
